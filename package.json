@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "npm link @sprkl/gitelemetry",
+    "prestart": "gitelemetry apply -a 100",
     "start": "nodemon ./bin/www"
   },
   "dependencies": {

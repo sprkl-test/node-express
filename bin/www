@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+require('@sprkl/gitelemetry').init('node-express')
 var app = require('../app');
 var debug = require('debug')('express-demo:server');
 var http = require('http');
