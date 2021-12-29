@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prestart": "gitelemetry apply -a 100",
+    "prestart": "sprkl apply -a 100",
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
