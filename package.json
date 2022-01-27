@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prestart": "sprkl apply -a 100",
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
