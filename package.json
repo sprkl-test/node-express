@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "sprkl --name=node-express --recipe-attributes.amount=100 -- nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.18.3",

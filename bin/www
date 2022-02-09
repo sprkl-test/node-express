@@ -4,7 +4,6 @@
  * Module dependencies.
  */
 
-require('@sprkl/sprkl').init({serviceName: 'node-express', agent: {host: process.env.OTEL_COLLECTOR}})
 var app = require('../app');
 var debug = require('debug')('express-demo:server');
 var http = require('http');
